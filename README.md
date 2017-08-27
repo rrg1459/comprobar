@@ -1,24 +1,10 @@
-# README
+#
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails new comprobar
 
-Things you may want to cover:
+cd comprobar
 
-* Ruby version
+rails generate scaffold Articulo nombre:string titulo:string contenido:text comprobar:boolean
 
-* System dependencies
+rails db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
